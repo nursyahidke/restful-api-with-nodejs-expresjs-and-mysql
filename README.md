@@ -38,6 +38,7 @@ NODE_ENV = development node server.js
 ```
 
 ## End Point
+![GET](https://raw.githubusercontent.com/nursyahidke/restful-api-with-nodejs-expresjs-and-mysql/master/Screenshoot/GET.PNG)
 **1. GET**
 * `/books`
 * `/books?search=Harry&sort=ASC&limit=7&page=0`
@@ -48,6 +49,7 @@ NODE_ENV = development node server.js
 
 
 **2. POST**
+![POST](https://raw.githubusercontent.com/nursyahidke/restful-api-with-nodejs-expresjs-and-mysql/master/Screenshoot/POST.PNG)
 * `/books`
     * ``` { "title": "Party", "description": "Full magic", "author": "J.K. Rowling", "image": "image", "genre_id": "Fiction" } ```
 
@@ -55,11 +57,13 @@ NODE_ENV = development node server.js
     * ``` { "genre": "Fiction" } ```
 
 **3. PATCH**
+![PATCH](https://raw.githubusercontent.com/nursyahidke/restful-api-with-nodejs-expresjs-and-mysql/master/Screenshoot/UPDATE.PNG)
 * `/genres` (Update genre by id)
    * ``` { "id": 1, "genre": "Fiction" } ```
 * `/books` (Update book by id)
    * ``` { "title": "Party", "description": "Full magic", "author": "J.K. Rowling", "image": "image", "genre_id": "Fiction" } ```
 
 **4. DELETE**
+![DELETE](https://raw.githubusercontent.com/nursyahidke/restful-api-with-nodejs-expresjs-and-mysql/master/Screenshoot/DELETE.PNG)
 * `/books` (Delete book by id)
 * `/genres` (Delete genre by id)
